@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>商品</title>
+<link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+	<h1>商品一覧</h1>
+	<p>
+		<a href="/item/add">商品を追加する</a>
+	</p>
+	<!-- cellpadding属性 は HTML5，では，見栄えに関する設定は CSS によるスタイルシートを用いることが徹底されたため，廃止されました。-->
+	<!-- <table border="1" cellpadding="5" cellspacing="0"> -->
+		<table border="1">
+		<tr>
+			<th>商品名</th>
+			<th>価格</th>
+		</tr>
+		<tr>
+			<td>りんご</td>
+			<td>250 円</td>
+		</tr>
+		<tr>
+			<td>みかん</td>
+			<td>300 円</td>
+		</tr>
+	</table>
+</body>
+</html>

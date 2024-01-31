@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>商品</title>
+<link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+	<h1>商品の追加</h1>
+	<p>
+		<a href="/item">商品一覧に戻る</a>
+	</p>
+	<form action="" method="post">
+		<!-- <table border="1" cellpadding="5" cellspacing="0"> -->
+		<table border="1">
+			<tr>
+				<th>商品名</th>
+				<td><input type="text" name="name" class="txt"></td>
+			</tr>
+			<tr>
+				<th>価格</th>
+				<td><input type="number" name="price" min="0" value="0" class="txt">円</td>
+			</tr>
+		</table>
+		<p>
+			<input type="submit" value="追加">
+		</p>
+	</form>
+</body>
+</html>

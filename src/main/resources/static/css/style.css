@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+table {
+	border-spacing: 2px;
+}
+
+td {
+	padding: 3px;
+}
+
+.txt {
+	display: inline-block;
+	width: 90%;
+	padding: 0em;
+	border: 1px solid #999;
+	background: #f2f2f2;
+	line-height: 2;
+}
