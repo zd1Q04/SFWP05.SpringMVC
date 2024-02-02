@@ -4,7 +4,7 @@ table {
 	border-spacing: 2px;
 }
 
-td {
+th,td {
 	padding: 3px;
 }
 
