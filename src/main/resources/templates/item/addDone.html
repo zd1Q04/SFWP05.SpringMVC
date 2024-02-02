@@ -20,7 +20,7 @@
 		</tr>
 		<tr>
 			<th>消費期限</th>
-			<td>[[${item.expirationDate}]]</td>
+			<td>[[${#dates.format(item.expirationDate, 'yyyy 年 MM 月 dd 日(E)')}]]</td>
 		</tr>
 	</table>
 
